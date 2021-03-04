@@ -39,7 +39,7 @@ async def on_command_error(ctx, error):
 
 @bot.command(name="instructions", help="Shows guideline for using the bot")
 async def instr(ctx):
-    embed = discord.Embed(title="Usage Guidelines", description='''**I'm Mr. Wolf. I solve problems. If self preservation is an instinct you posess, you will read the rules and apply them accordingly.**\n\n\n- Use **++bc** *char1* *char2* *char n* to filter out banned characters and generate a team list\n\n- Use space between every character name, no commas\n\n- Character names are NOT case sensitive\n\n- If a character name contains a space, use quotation makrs (e.g. ++bc "et zabuza" "sakura (s)"\n\n- Use **++teamwith** to generate a team that contains one or two characters (e.g. **++teamwith** *yk* *"et zabuza"*\n\n- Use **++chars** to view a list of all characters''', color=10038562)
+    embed = discord.Embed(title="Usage Guidelines", description='''###''', color=10038562)
     await ctx.send(embed=embed)
 
 
